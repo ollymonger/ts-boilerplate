@@ -5,10 +5,11 @@ export class Mainclass {
 
     constructor(public _text: string) {
         Mainclass.text = _text;
+        console.log(Mainclass.text);
     }
 
     public static get() {
-        return console.log(`Text stat is: ${Mainclass.text}`);
+        return `${Mainclass.text}`;
     }
 
 
@@ -17,16 +18,3 @@ export class Mainclass {
     }
 
 }
-
-
-new Mainclass("Init");
-
-
-let text = new Text();
-
-
-console.log(text.getTextFromMain());
-
-text.setMainText("Test test test!")
-
-console.log(text.getTextFromMain());

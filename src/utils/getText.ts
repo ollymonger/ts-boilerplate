@@ -3,12 +3,10 @@ import { Mainclass } from '../Main';
 export class Text {
 
     getTextFromMain() {
-        Mainclass.get();
-        return;
+        return Mainclass.get();
     }
 
     setMainText(_text: string) {
-        Mainclass.set(_text);
-        return;
+        return Mainclass.set(_text);;
     }
 }
