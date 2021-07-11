@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npx jest ./testing/Maintest.test.tsx",
-    "start": "ts-node ./src/Main.ts"
+    "start": "ts-node ./src/Main.ts",
+    "build": "tsc *.ts"
   },
   "keywords": [],
   "author": "",
