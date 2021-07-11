@@ -1,7 +1,6 @@
 import { Text } from './utils/getText';
 
 export class Mainclass {
-
     private static text: string;
 
     constructor(public _text: string) {
@@ -18,7 +17,6 @@ export class Mainclass {
     }
 
 }
-
 
 let Main = new Mainclass("Init");
 
