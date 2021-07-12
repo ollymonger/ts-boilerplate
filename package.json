@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx jest ./testing/Maintest.test.tsx",
-    "start": "ts-node ./src/Main.ts",
-    "build": "tsc *.ts"
+    "test": "jest",
+    "start": "ts-node ./src/index.ts",
+    "build": "tsc",
+    "lint": "eslint \"./src/**/*.ts\""
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,9 @@
   },
   "devDependencies": {
     "@types/jest": "^26.0.24",
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3",
+    "eslint": "^7.30.0",
     "jest": "^27.0.6",
     "ts-jest": "^27.0.3",
     "typescript": "^4.3.5"

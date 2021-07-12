@@ -1,7 +1,8 @@
-#### Typescript demo project
+#### Typescript boilerplate project
 
-This is a demo project. Find the commands to run below:
+This is a boilerplate project using TypeScript, ts-node, jest and eslint. Find the commands to run below:
 
-`npm run start`
-`npm run test`
+`npm start`
+`npm test`
 `npm run build`
+`npm run lint`
